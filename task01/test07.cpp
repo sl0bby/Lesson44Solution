@@ -8,7 +8,7 @@ int main() {
 	cout << "Iput size of array: " << endl;
 	cin >> size;
 
-	int* array = new int[size];
+	int* array = new int*[size];
 	
 	*(array) = 1;
 	*(array + 1) = 11;
